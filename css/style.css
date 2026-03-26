@@ -1379,7 +1379,7 @@ blockquote {
 
 /* --------- 6.6 Clients ---------- */
 
-#clients a {
+#contacts a {
     display: block;
     text-align: center;
     position: relative;
@@ -1388,12 +1388,12 @@ blockquote {
     color: #fff;
 }
 
-#clients img {
+#contacts img {
     display: inline-block;
     padding: 15px 25px;
 }
 
-.client-overlay {
+.contacts-overlay {
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
     top;
@@ -1410,11 +1410,11 @@ blockquote {
     transition: all 0.3s ease-out;
 }
 
-#clients a:hover .client-overlay {
+#contacts a:hover .client-overlay {
     opacity: 1;
 }
 
-.client-overlay span {
+.contacts-overlay span {
     position: absolute;
     top: 48%;
     left: 0;
