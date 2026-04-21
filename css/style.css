@@ -975,7 +975,9 @@ blockquote {
 /* --------- 6.4 Gallery ---------- */
 
 #gallery img {
-    max-height: 300px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 
 #gallery [class*='col-'] {
